@@ -1,3 +1,15 @@
+body {
+  background: #bdc3c7; }
 
+.navbar-default {
+  background-color: #2ecc71;
+  border-style: none; }
+
+.navbar-brand, nav a {
+  color: #EEEEEE !important; }
+
+.login {
+  background-color: #e67e22;
+  border-style: none; }
 
 /*# sourceMappingURL=pages.css.css.map */

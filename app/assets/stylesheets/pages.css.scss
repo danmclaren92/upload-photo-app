@@ -2,3 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$mainbg: #bdc3c7;
+$navbg: #2ecc71;
+$buttonbg: #e74c3c;
+
+body {
+	background: $mainbg;
+}
+
+.navbar-default {
+	background-color: $navbg;
+	border-style: none;
+}
+
+.navbar-brand, nav a {
+	color: #EEEEEE !important;
+}
+
+.login {
+	background-color: #e67e22;
+	border-style: none;
+}
