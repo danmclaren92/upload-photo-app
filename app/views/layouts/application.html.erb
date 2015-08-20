@@ -14,9 +14,15 @@
 	<%= render 'layouts/header.html.erb' %>
 
 	<div class="container">
+
+		<% flash.each do |name, msg| %>
+			<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+		<% end %>
+
 		<div class="jumbotron">
 			<%= yield %>
 		</div>
+		
 	</div>
 
 </body>
