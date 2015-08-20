@@ -2,12 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$mainbg: #bdc3c7;
+$mainbg: #ecf0f1;
 $navbg: #2ecc71;
 $buttonbg: #e74c3c;
 
 body {
 	background: $mainbg;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar-default {
@@ -17,9 +18,23 @@ body {
 
 .navbar-brand, nav a {
 	color: #EEEEEE !important;
+} .navbar-brand:hover, nav a:hover {opacity: 0.85;}
+
+.jumbotron {
+	margin-top: 5em;
+	background-color: #fff;
+	text-align: center;
 }
 
 .login {
-	background-color: #e67e22;
+	background-color: #3498db;
+	opacity: 0.80;
 	border-style: none;
-}
+	margin: 0 .4em;
+} .login:hover {opacity: 0.5;}
+
+.register {
+	background-color: #9b59b6;
+	opacity: 0.80;
+	border-style: none;
+} .register:hover {opacity: 0.5; background-color: #9b59b6;}

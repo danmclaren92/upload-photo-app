@@ -1,5 +1,6 @@
 body {
-  background: #bdc3c7; }
+  background: #ecf0f1;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .navbar-default {
   background-color: #2ecc71;
@@ -8,8 +9,30 @@ body {
 .navbar-brand, nav a {
   color: #EEEEEE !important; }
 
+.navbar-brand:hover, nav a:hover {
+  opacity: 0.85; }
+
+.jumbotron {
+  margin-top: 5em;
+  background-color: #fff;
+  text-align: center; }
+
 .login {
-  background-color: #e67e22;
+  background-color: #3498db;
+  opacity: 0.80;
+  border-style: none;
+  margin: 0 .4em; }
+
+.login:hover {
+  opacity: 0.5; }
+
+.register {
+  background-color: #9b59b6;
+  opacity: 0.80;
   border-style: none; }
+
+.register:hover {
+  opacity: 0.5;
+  background-color: #9b59b6; }
 
 /*# sourceMappingURL=pages.css.css.map */
