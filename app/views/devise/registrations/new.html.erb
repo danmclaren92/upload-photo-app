@@ -19,9 +19,12 @@
         <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
       </div>
 
-      <div class="actions">
-        <%= f.submit "Sign up", class: "btn  login", style: "background-color: #D9EDF7; opacity: 1" %>
+      <div class="actions form group">
+        <%= f.submit "Sign up", class: "btn login", style: "background-color: #D9EDF7; opacity: 1" %>
       </div>
     <% end %>
+  </div>
+  <div class="panel-footer">
+    <%= render "devise/shared/links" %>
   </div>
 </div>

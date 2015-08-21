@@ -4,7 +4,6 @@
 <h4>Just started work on this so it's lacking functionality at the time.</h4>
 <br>
 <% if user_signed_in? %>
-	<%= link_to "Log Out", destroy_user_session_path, class: "btn btn-info login", method: :delete %>
 <% else %>
 	<%= link_to "Login", new_user_session_path, class: "btn btn-info login" %> <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info register" %>
 <% end %>
