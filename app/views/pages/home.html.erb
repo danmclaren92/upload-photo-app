@@ -1,8 +1,11 @@
-<h1>Welcome!</h1>
-<br>
-<h4>Pinterest Clone - Work in Progress</h4>
-<h4>Just started work on this so it's lacking functionality at the time.</h4>
-<br>
+<div class="jumbotron">
+	<h1>Welcome!</h1>
+	<br>
+	<h4>Pinterest Clone - Work in Progress</h4>
+	<br>
+	<h4>Please Register/Login to create new posts!</h4>
+</div>
+
 <% if user_signed_in? %>
 <% else %>
 	<%= link_to "Login", new_user_session_path, class: "btn btn-info login" %> <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info register" %>
