@@ -5,9 +5,17 @@
 			  <strong>Description:</strong>
 			  <%= @post.description %>
 			</p>
+
+			<p>
+			  <strong>Posted By:</strong>
+			  <%= @post.user.email %>
+			</p>
+
+			<%= link_to 'Edit', edit_post_path(@post) %> |
+			<%= link_to 'Back', posts_path %>
+
 		</div>
 	</div>
 </div>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+
