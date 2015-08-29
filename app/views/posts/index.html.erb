@@ -16,8 +16,8 @@
         <td><%= link_to 'Show', post %></td>
 
         <% if current_user == post.user %> <!-- CONDITIONAL FOR IF LOGGED IN USER = USER WHO POSTED THE CONTENT -->
-          <td><%= link_to 'Edit', edit_post_path(post) %></td>
-          <td><%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><%= link_to 'Edit Post', edit_post_path(post) %></td>
+          <td><%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <% end %>
       </tr>
     <% end %>
