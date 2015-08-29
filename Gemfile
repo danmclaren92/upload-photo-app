@@ -48,3 +48,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Devise for login and register
 gem 'devise', '~> 3.5.2'
+
+# PaperClip for File Uploading
+gem 'paperclip', '~> 4.2.1'
