@@ -54,4 +54,7 @@ body {
   font-weight: bold;
   color: #16a085; }
 
+.well > img {
+  max-width: 100%; }
+
 /*# sourceMappingURL=pages.css.css.map */
