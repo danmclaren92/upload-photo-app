@@ -33,6 +33,16 @@ body {
 	margin: 0 .4em;
 } .login:hover {opacity: 0.5;}
 
+
+.login2 {
+	background-color: #3498db;
+	opacity: 0.80;
+	border-style: none;
+	padding: 1.25em;
+	font-size: 1.25em;
+	margin: 0 .4em;
+} .login2:hover {opacity: 0.5;}
+
 .register {
 	background-color: #9b59b6;
 	opacity: 0.80;
@@ -41,4 +51,10 @@ body {
 
 .posts-table tr > td {
 	padding-right: 1em;
+}
+
+.new-post a {
+	font-size: 200%;
+	font-weight: bold;
+	color: #16a085;
 }

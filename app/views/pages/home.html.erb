@@ -3,10 +3,11 @@
 	<br>
 	<h4>Pinterest Clone - Work in Progress</h4>
 	<br>
-	<h4>Please Register/Login to create new posts!</h4>
+	<%= link_to "Browse & Create Posts", posts_path, class: "btn btn-info login2" %>
 </div>
 
 <% if user_signed_in? %>
 <% else %>
+	<h4>Please Register/Login to create new posts!</h4>
 	<%= link_to "Login", new_user_session_path, class: "btn btn-info login" %> <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info register" %>
 <% end %>
