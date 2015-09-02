@@ -28,3 +28,7 @@ body {
 .navbar-brand {
 	color: $emerald;
 }
+
+.table img {
+	max-width: 325px;
+}
