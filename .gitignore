@@ -18,3 +18,5 @@
 
 # Ignore local images
 /public/system
+
+public/assets/stylesheets
