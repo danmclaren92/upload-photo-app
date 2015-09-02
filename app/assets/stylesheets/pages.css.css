@@ -57,4 +57,7 @@ body {
 .well > img {
   max-width: 100%; }
 
+.table img {
+  max-width: 320px; }
+
 /*# sourceMappingURL=pages.css.css.map */
