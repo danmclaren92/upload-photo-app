@@ -11,7 +11,6 @@ end
 
 group :production, :staging do
   gem 'pg'
-  gem 'rails_12factor'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -51,3 +50,4 @@ gem 'devise', '~> 3.5.2'
 
 # PaperClip for File Uploading
 gem 'paperclip', '~> 4.2.1'
+gem 'rails_12factor'
