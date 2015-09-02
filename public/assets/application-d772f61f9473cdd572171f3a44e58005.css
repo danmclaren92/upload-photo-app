@@ -1,0 +1,202 @@
+$emerald:#2ecc71;$concrete:#95a5a6;body{background:$emerald}.navbar-default{background-color:$concrete;border-style:none}.navbar-brand{color:$emerald}.table img{max-width:325px}
+body {
+  background: #ecf0f1;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.navbar-default {
+  background-color: #b1b3bc;
+  border-style: none; }
+
+.navbar-brand, nav a {
+  color: #EEEEEE !important; }
+
+.navbar-brand:hover, nav a:hover {
+  opacity: 0.85; }
+
+.jumbotron {
+  margin-top: 5em;
+  background-color: #fff;
+  text-align: center; }
+
+.login {
+  background-color: #3498db;
+  opacity: 0.80;
+  border-style: none;
+  margin: 0 .4em; }
+
+.login:hover {
+  opacity: 0.5; }
+
+.login2 {
+  background-color: #2ecc71;
+  border-style: none;
+  padding: 1.25em;
+  font-size: 1.25em;
+  margin: 0 .4em; }
+
+.login2:hover {
+  background-color: #2ecc71;
+  opacity: 0.825; }
+
+.register {
+  background-color: #9b59b6;
+  opacity: 0.80;
+  border-style: none; }
+
+.register:hover {
+  opacity: 0.5;
+  background-color: #9b59b6; }
+
+.posts-table tr > td {
+  padding-right: 1em; }
+
+.new-post a {
+  font-size: 200%;
+  font-weight: bold;
+  color: #16a085; }
+
+.well > img {
+  max-width: 100%; }
+
+.table img {
+  max-width: 325px; }
+
+/*# sourceMappingURL=pages.css.css.map */
+{
+"version": 3,
+"mappings": "AAQA,IAAK;EACJ,UAAU,EALF,OAAO;EAMf,WAAW,EAAE,6BAA6B;;AAG3C,eAAgB;EACf,gBAAgB,EATT,OAAO;EAUd,YAAY,EAAE,IAAI;;AAGnB,oBAAqB;EACpB,KAAK,EAAE,kBAAkB;;AACxB,gCAAiC;EAAC,OAAO,EAAE,IAAI;;AAEjD,UAAW;EACV,UAAU,EAAE,GAAG;EACf,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,MAAM;;AAGnB,MAAO;EACN,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,MAAM;;AACb,YAAa;EAAC,OAAO,EAAE,GAAG;;AAG5B,OAAQ;EACP,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,MAAM;EACf,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;;AACb,aAAc;EAAC,gBAAgB,EAAE,OAAO;EAAE,OAAO,EAAE,KAAK;;AAE1D,SAAU;EACT,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,IAAI;;AACjB,eAAgB;EAAC,OAAO,EAAE,GAAG;EAAE,gBAAgB,EAAE,OAAO;;AAE1D,oBAAqB;EACpB,aAAa,EAAE,GAAG;;AAGnB,WAAY;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;;AAGf,WAAY;EACX,SAAS,EAAE,IAAI;;AAGhB,UAAW;EACV,SAAS,EAAE,KAAK",
+"sources": ["pages.css.scss"],
+"names": [],
+"file": "pages.css.css"
+}
+body{background:#ecf0f1;font-family:'Source Sans Pro',sans-serif}.navbar-default{background-color:#b1b3bc;border-style:none}.navbar-brand,nav a{color:#EEE!important}.navbar-brand:hover,nav a:hover{opacity:.85}.jumbotron{margin-top:5em;background-color:#fff;text-align:center}.login{background-color:#3498db;opacity:.8;border-style:none;margin:0 .4em}.login:hover{opacity:.5}.login2{background-color:#2ecc71;border-style:none;padding:1.25em;font-size:1.25em;margin:0 .4em}.login2:hover{background-color:#2ecc71;opacity:.825}.register{background-color:#9b59b6;opacity:.8;border-style:none}.register:hover{opacity:.5;background-color:#9b59b6}.posts-table tr>td{padding-right:1em}.new-post a{font-size:200%;font-weight:700;color:#16a085}.well>img{max-width:100%}.table img{max-width:325px}
+/* line 9, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+body {
+  background: #ecf0f1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* line 14, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.navbar-default {
+  background-color: #b1b3bc;
+  border-style: none;
+}
+
+/* line 19, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.navbar-brand, nav a {
+  color: #EEEEEE !important;
+}
+
+/* line 21, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.navbar-brand:hover, nav a:hover {
+  opacity: 0.85;
+}
+
+/* line 23, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.jumbotron {
+  margin-top: 5em;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 29, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.login {
+  background-color: #3498db;
+  opacity: 0.80;
+  border-style: none;
+  margin: 0 .4em;
+}
+
+/* line 34, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.login:hover {
+  opacity: 0.5;
+}
+
+/* line 37, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.login2 {
+  background-color: #2ecc71;
+  border-style: none;
+  padding: 1.25em;
+  font-size: 1.25em;
+  margin: 0 .4em;
+}
+
+/* line 43, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.login2:hover {
+  background-color: #2ecc71;
+  opacity: 0.825;
+}
+
+/* line 45, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.register {
+  background-color: #9b59b6;
+  opacity: 0.80;
+  border-style: none;
+}
+
+/* line 49, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.register:hover {
+  opacity: 0.5;
+  background-color: #9b59b6;
+}
+
+/* line 51, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.posts-table tr > td {
+  padding-right: 1em;
+}
+
+/* line 55, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.new-post a {
+  font-size: 200%;
+  font-weight: bold;
+  color: #16a085;
+}
+
+/* line 61, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.well > img {
+  max-width: 100%;
+}
+
+/* line 65, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/pages.css.scss */
+.table img {
+  max-width: 325px;
+}
+/* line 4, c:/users/dan/desktop/dev/rails/pinteresting/app/assets/stylesheets/posts.css.scss */
+.table img {
+  max-width: 325px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+$emerald: #2ecc71;
+$concrete: #95a5a6;
+
+body {
+	background: $emerald;
+}
+
+.navbar-default {
+	background-color: $concrete;
+	border-style: none;
+}
+
+.navbar-brand {
+	color: $emerald;
+}
+
+.table img {
+	max-width: 325px;
+}
