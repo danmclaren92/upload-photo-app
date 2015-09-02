@@ -57,7 +57,19 @@ body {
 .well > img {
   max-width: 100%; }
 
-.table img {
-  max-width: 325px; }
+.box {
+  margin: 0.33em;
+  padding: 0.33em;
+  font-size: 0.925em;
+  line-height: 1.4em;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #444;
+  width: 40em; }
+
+.box img {
+  display: block;
+  width: 100%;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=pages.css.css.map */

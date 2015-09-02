@@ -1,33 +1,25 @@
-<h1>All Posts</h1>
-<br><br>
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Image</th>
-      <th>Description</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody class="posts-table">
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= image_tag post.image %></td>
-        <td><%= post.description %></td>
-        <td><%= link_to 'Show', post %></td>
-
-        <% if current_user == post.user %> <!-- CONDITIONAL FOR IF LOGGED IN USER = USER WHO POSTED THE CONTENT -->
-          <td><%= link_to 'Edit Post', edit_post_path(post) %></td>
-          <td><%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <% end %>
-      </tr>
-    <% end %>
-  </tbody> <!--/.posts-table -->
-</table> <!--/.table .table-striped-->
-
-<br>
-
 <center class="new-post">
   <%= link_to 'New Post', new_post_path %>
-</center> <!--/.new-post-->
+</center> <!--.new-post-->
+
+<br><br><br><br>
+
+<div id="posts">
+
+  <% @posts.each do |post| %>
+    <div class="box">
+        <%= link_to (image_tag post.image), post %>
+        <%= post.description %>
+        <p><strong>Source: <%= post.user.email %></strong></p>
+        <p>
+          <%= link_to 'Show', post %>
+          <% if current_user == post.user %> <!-- CONDITIONAL FOR IF LOGGED IN USER = USER WHO POSTED THE CONTENT -->
+            <%= link_to 'Edit', edit_post_path(post) %>
+            <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+          <% end %>
+        </p>
+
+    </div> <!--.box-->   
+  <% end %>
+
+</div> <!--.posts-->
