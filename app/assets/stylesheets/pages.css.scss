@@ -11,6 +11,11 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.container {
+	width: 90vw;
+	height: auto;
+}
+
 .navbar-default {
 	background-color: $navbg;
 	border-style: none;

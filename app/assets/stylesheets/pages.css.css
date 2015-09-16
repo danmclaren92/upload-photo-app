@@ -2,6 +2,10 @@ body {
   background: #ecf0f1;
   font-family: 'Source Sans Pro', sans-serif; }
 
+.container {
+  width: 90vw;
+  height: auto; }
+
 .navbar-default {
   background-color: #2ecc71;
   border-style: none; }
@@ -58,7 +62,7 @@ body {
   max-width: 100%; }
 
 .box {
-  margin: 0.33em;
+  margin: 1.75em;
   padding: 0.33em;
   font-size: 0.925em;
   line-height: 1.4em;
