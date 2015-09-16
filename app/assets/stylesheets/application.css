@@ -29,7 +29,7 @@ body {
 	color: $emerald;
 }
 
-.container {
+.container, #posts {
 	width: 90vw;
 	height: auto;
 }

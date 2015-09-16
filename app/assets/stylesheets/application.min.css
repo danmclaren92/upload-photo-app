@@ -1,1 +1,1 @@
-$emerald:#2ecc71;$concrete:#95a5a6;body{background:$emerald}.navbar-default{background-color:$concrete;border-style:none}.navbar-brand{color:$emerald}.container{width:90vw;height:auto}
+$emerald:#2ecc71;$concrete:#95a5a6;body{background:$emerald}.navbar-default{background-color:$concrete;border-style:none}.navbar-brand{color:$emerald}#posts,.container{width:90vw;height:auto}
